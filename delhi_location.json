@@ -1016,7 +1016,7 @@
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.2804976,28.7632356]},"properties":{"NAME":"Rameshwar Park","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.2814216,28.3531671]},"properties":{"NAME":"Parvatiya Colony","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.2833729,28.6588625]},"properties":{"NAME":"Krishna Nagar","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[77.2833902,28.6643612]},"properties":{"NAME":"आजाद नगर, पूर्वी","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[77.2833902,28.6643612]},"properties":{"NAME":"Azad Nagar, East","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.2846843,28.3933632]},"properties":{"NAME":"Nehru Colony","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.2848447,28.364033]},"properties":{"NAME":"Jawahar Colony","PLACE":"suburb","ADDR:CITY":"","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[77.285339,28.619073]},"properties":{"NAME":"Jindal Pharma","PLACE":"","ADDR:CITY":"Pandav Nagar, New Delhi","ADDR:HOUSE":"","ADDR:FLATS":"","ADDR:POSTC":""}},
