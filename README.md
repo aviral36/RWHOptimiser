@@ -7,9 +7,9 @@
 
 
 
-RWHOpt is a underground water tank location optimizer that finds the optimal location(s) and capacity of water tank(s) to be placed in the city, provided housing data, catchments, stability and (x,y) coordinates of houses. See more about input. [See more about input](#Inputs:-structure-of-data).
+RWHOpt is a underground water tank location optimizer that finds the optimal location(s) and capacity of water tank(s) to be placed in the city, provided housing data, catchments, stability and (x,y) coordinates of houses. [See more about input](#inputs-structure-of-data).
 
-RWHOpt implements a transshipment model to produce optimal number and location of tanks. This data is fed into the web application which displays a map of shared tanks and a cost analysis graph. See more about output "HERE".
+RWHOpt implements a transshipment model to produce optimal number and location of tanks. This data is fed into the web application which displays a map of shared tanks and a cost analysis graph. [See more about output](#output-of-the-model).
 
 ## Data Collection and Preprocessing
 
@@ -30,3 +30,7 @@ The green cover in above image shows the catchment area as figured out by Vision
 
 ## Inputs: Structure of Data
 
+
+## Output of the Model 
+
+###### NOTE: This section deals with the output of our optimization model. This output is fed into a script which displays this information in a more appealing manner, along with various other functionalities. To see the visual output, click here.
