@@ -1,12 +1,12 @@
-###
-This program calculates the Naive cost of installing rainwater harvesting tanks in a city.
 
-Data collected: 
-rainfall data (CSV)
-housing data (CSV)
-
-return value:
-overall cost of project in the city. (currency)
+#This program calculates the Naive cost of installing rainwater harvesting tanks in a city.
+#
+#Data collected: 
+#rainfall data (CSV)
+#housing data (CSV)
+#
+#return value:
+#overall cost of project in the city. (currency)
 ###
 
 #==========================================
