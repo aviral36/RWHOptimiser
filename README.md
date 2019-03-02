@@ -30,7 +30,16 @@ The green cover in above image shows the catchment area as figured out by Vision
 
 ## Inputs: Structure of Data
 
+<strong>Coordinates (x,y): </strong>represent the geographical location of the centre of the catchment area, which may be a house, an apartment complex, an official building, a factory, etc, hereafter referred to as a node.
+
+<strong> Demand (volumetric): </strong> This parameter denotes the demand of a catchment area arising from a particular node. The unit for measurement is cubic metre per month.
+
+<strong> Stability (decimal): </strong> This measure gives the relative stability of a place (x,y) with a decimal numeral ranging from -1 to 10. Instability arises due to various factors like groundwater level, loose ground, existing pipelines, etc. Further, if a tank is impossible to be placed in a certain location, the value is set to -1. 
+
+<strong> Cost of implementation: </strong> The overall cost of the system is actually a combination of two costs: fixed costs and variable costs. Fixed costs include one-time construction and installation costs. This includes all types of costs incurred during the set-up, like excavation, cost of concrete (per cubic meter) and others. 
 
 ## Output of the Model 
 
 ###### NOTE: This section deals with the output of our optimization model. This output is fed into a script which displays this information in a more appealing manner, along with various other functionalities. To see the visual output, click here.
+
+
