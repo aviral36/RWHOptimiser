@@ -18,7 +18,11 @@ The software is flexible and can take in data in different forms. Both our metho
 
 ### Fetching Data from Municipal Corporation Data
 
-A city municipal corporation has an accurate and comprehensive data of all land use in that city. The data includes important parameters like rooftop_area, coordinates_of_building, type_of_development (industrial/residential, etc.) amongst others. 
+A city municipal corporation has an accurate and comprehensive data of all land use in that city. The data includes important parameters like rooftop_area, coordinates_of_building, type_of_development (industrial/residential, etc.) amongst others. Land_use data is important as it helps differentiate industrial rooftops from residential rooftops.
+
+### Mapping Data using Vision API
+
+![](name-of-giphy.gif)
 
 
 
