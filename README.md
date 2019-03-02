@@ -22,7 +22,7 @@ A city municipal corporation has an accurate and comprehensive data of all land 
 
 ### Mapping Data using Vision API
 
-The below image shows how a society in Dwarka, New Delhi is being analysed to estimate the rooftop of building.
+The below image shows how a society in Dwarka, New Delhi is being analysed to estimate the catchment area on/near the buildings.
 
 ![Rooftop mapping using Vision API](https://github.com/aviral36/RWHOptimiser/blob/master/metadata/Webp.net-gifmaker.gif)
 
