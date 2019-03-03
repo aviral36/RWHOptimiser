@@ -63,7 +63,8 @@ Recurring costs include         -maintainance cost            monthly costs of t
                               total recurring cost = maintainance_cost (tanks + pipes)
 
 
-## Model
+## Files Description
+
 In the absence of required data, we sought to generate our own data to test out our proposed algorithms. The files in the repository serve the following purposes:
 
 [RANDOM_DATA_GENERATOR.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/RANDOM_DATA_GENERATOR.ipynb): This file generates completely random data. All the variables including the coordinates, the demands of households, the catchement areas and the rainfall in the city are random numbers without any assumptions. To generate the positions of tanks, the houses are clustered together and the centroid of each cluster is taken as a probable spot for keeping a tank.
