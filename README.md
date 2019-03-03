@@ -41,7 +41,7 @@ The green cover in above image shows the catchment area as figured out by Vision
 
 ## Output of the Model 
 
-###### NOTE: This section deals with the output of our optimization model. This output is fed into a script which displays this information in a more appealing manner, along with various other functionalities. To see the visual output, click here.
+###### NOTE: This section deals with the output of our optimization model. This output is fed into a script which displays this information in a more appealing manner, along with various other functionalities. To see the visual output, [click here](#software-output-web-based-application).
 
 <strong> Cost difference/benefit calculator</strong> calculates the difference between operational costs of implementing primitive approach and the new found distribution's approach. This cost difference (in currency) is fed into a script which displays this information in a more apealing manner. Cost calculations have been done using the assumptions:
 Total cost is a combination of two costs, 
@@ -75,7 +75,6 @@ In the absence of required data, we sought to generate our own data to test out 
 Next, we took the jury's suggestions in mind and generated pseudo-random data. We assumed that all the pipelining(sewerage, gas, etc) is done along side roads. This is because it is easier to access these pipes if they need to be maintained or replaced. Also, we assumed that houses are built along sides roads and hence we used the coordinates from the road map as coordinates of houses to obtain about 30000 points. We further used a subset of this data of about 1100 points to test our algorithm.
 
 [json_parser.py](https://github.com/aviral36/RWHOptimiser/blob/master/json_parser.py) Extracts coordinates from a GeoJSON mapfile and pushes them into a numpy array. 
-
 [JSON Location_Reader.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/JSON_Location_Reader.ipynb): Built upon json_parser code to extract location data of catchments from a GeoJSON file. Used python codec to help decode non-UTF8 JSON encoding. 
 
 [PRIMITIVE.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/PRIMITIVE.ipynb): Implements native rainwater harvesting system, which is completely unshared, and each tank lies under a house. Takes (x,y) as input, returns average cost of installation per house and total cost of implementation on entire city.
