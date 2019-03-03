@@ -64,5 +64,7 @@ Recurring costs include         -maintainance cost            monthly costs of t
 
 
 ## Model
-
+In the absence of required data, we sought to generate our own data to test out our proposed algorithms. The files in the repository serve the following purposes:
+<strong>RANDOM_DATA_GENERATOR</strong>: This file generates completely random data. All the variables including the coordinates, the demands of households, the catchement areas and the rainfall in the city are random numbers without any assumptions. To generate the positions of tanks, the houses are clustered together and the centroid of each cluster is taken as a probable spot for keeping a tank.
+Next, we took the jury's suggestions in mind and generated pseudo-random data. We assumed that all the pipelining(sewerage, gas, etc) is done along side roads. This is because it is easier to access these pipes if they need to be maintained or replaced. Also, we assumed that houses are built along sides roads and hence we used the coordinates from the road map as coordinates of houses to obtain about 30000 points. We further used a subset of this data of about 1100 points to test our algorithm.
 
