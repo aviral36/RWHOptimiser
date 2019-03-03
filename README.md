@@ -42,4 +42,27 @@ The green cover in above image shows the catchment area as figured out by Vision
 
 ###### NOTE: This section deals with the output of our optimization model. This output is fed into a script which displays this information in a more appealing manner, along with various other functionalities. To see the visual output, click here.
 
+<strong> Cost difference/benefit calculator</srong> calculates the difference between operational costs of implementing primitive approach and the new found distribution's approach. This cost difference (in currency) is fed into a script which displays this information in a more apealing manner. Cost calculations have been done using the assumptions:
+Total cost is a combination of two costs, 
+total cost = fixed costs + recurring costs
+fixed(one time) costs include  
+                               -tank construction cost        constant k (per cubic metre)
+                                                              k * (volume of tank) gives construction cost
+                               -pipeline construction cost    constant v (per metre)
+                                                              v * (length of pipe) from node to tank
+                               -installation cost             labor cost, permit cost, etc.
+                                                              fixed value c
+                                                              
+                      total fixed cost = tank_construction_cost + pipeline_construction_cost + installation_cost
+                      
+Recurring costs include         -maintainance cost            monthly costs of tank, q per cubic meter
+                                                              q * (volume of tank)
+                                                              monthly costs of pipeline maintainace, w per meter
+                                                              w * (length of pipeline)
+                                         
+                              total recurring cost = maintainance_cost (tanks + pipes)
+
+
+## Model
+
 
