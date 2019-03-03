@@ -76,3 +76,22 @@ Next, we took the jury's suggestions in mind and generated pseudo-random data. W
 [JSON Location_Reader.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/JSON_Location_Reader.ipynb): Built upon json_parser code to extract location data of catchments from a GeoJSON file. Used python codec to help decode non-UTF8 JSON encoding. 
 
 [PRIMITIVE.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/PRIMITIVE.ipynb): Implements native rainwater harvesting system, which is completely unshared, and each tank lies under a house. Takes (x,y) as input, returns average cost of installation per house and total cost of implementation on entire city.
+
+
+# Software Output: Web Based Application
+
+The front end of our software is a web-based application which takes in data from our backend feeders (like primitive, which outputs (x,y) tuples, demand, cost) and display them in a visually appealing manner. The webApp contains a home page and a grievance tab.
+The Home page takes in city data and returns optimal value of number of tanks to be placed. Further, it shows a brief summary of cost benefits obtained by implementing the shared harvesting model. Further, the administrator has an option of vary the number of tanks according to his/her will, even though the cost might not be the lowest. 
+This tab also contains a button which open the city map with locations of tanks and their capacities. 
+
+The grievance tab displays all the recorded issues of citizens along with location and type of issue. This tab fetches data from a grievance app which the citizens use to address their system related problem.
+
+## Grievance App
+
+The grievance app is a mobile application which can be used by citizens to address their problems regarding the water harvesting system. For instance, a pipe leakage can be registered on this app along with location. The Water Department official will get to know about this problem through his portal.
+      
+![Alt text](https://github.com/aviral36/RWHOptimiser/blob/master/metadata/GrievanceApp.PNG)
+
+Since we plan to expand this app throughout a city, it will contain many perons who do not know the complexities of an app. So, we have tried to keep the interface as minimal as possible. Furthermore, the app will be developed so as to work in a offline mode - taking care of the fact that lot of people do not have access to the internet. In this method, the grievance will be sent via an SMS, which will be read accordingly by the Admin portal.
+
+<hr>
