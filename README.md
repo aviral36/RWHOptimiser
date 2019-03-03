@@ -70,6 +70,8 @@ In the absence of required data, we sought to generate our own data to test out 
 
 Next, we took the jury's suggestions in mind and generated pseudo-random data. We assumed that all the pipelining(sewerage, gas, etc) is done along side roads. This is because it is easier to access these pipes if they need to be maintained or replaced. Also, we assumed that houses are built along sides roads and hence we used the coordinates from the road map as coordinates of houses to obtain about 30000 points. We further used a subset of this data of about 1100 points to test our algorithm.
 
-[JSON HIGHWAY READER.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/JSON_HIGHWAY_READER.ipynb): Extracts coordinates from a GeoJSON mapfile and pushes them into a numpy array. Used python codec to help decode non-UTF8 JSON encoding. 
+[json_parser.py](https://github.com/aviral36/RWHOptimiser/blob/master/json_parser.py) Extracts coordinates from a GeoJSON mapfile and pushes them into a numpy array. 
+
+[JSON Location_Reader.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/JSON_Location_Reader.ipynb): Built upon json_parser code to extract location data of catchments from a GeoJSON file. Used python codec to help decode non-UTF8 JSON encoding. 
 
 [PRIMITIVE.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/PRIMITIVE.ipynb): Implements native rainwater harvesting system, which is completely unshared, and each tank lies under a house. Takes (x,y) as input, returns average cost of installation per house and total cost of implementation on entire city.
