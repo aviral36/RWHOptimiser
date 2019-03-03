@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sidenav {
+  height: 100% !important; /* Full-height: remove this if you want "auto" height */
+  width: 220px !important; /* Set the width of the sidebar */
+  position: fixed !important; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1 !important; /* Stay on top */
+  top: 0 !important; /* Stay at the top */
+  left: 0 !important;
+  background-color: #111 !important; /* Black */
+  overflow-x: hidden !important; /* Disable horizontal scroll */
+  padding-top: 20px !important;
+  border-right: 10px solid white;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  /* padding: 3px 8px 6px 16px; */
+  text-decoration: none !important;
+  font-size: 25px !important;
+  color: #818181 !important;
+  display: block !important;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1 !important;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px !important; /* Same as the width of the sidebar */
+  padding: 0px 10px !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px !important;
+  }
+  .sidenav a {
+    font-size: 18px !important;
+  }
+}
