@@ -68,6 +68,8 @@ Recurring costs include         -maintainance cost            monthly costs of t
 
 In the absence of required data, we sought to generate our own data to test out our proposed algorithms. The files in the repository serve the following purposes:
 
+[ENTIRE_CODE_PIPELINE.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/pipeline/ENTIRE_CODE_PIPELINE.ipynb) contains the entire pipeline of RWHOpt software. Different modules have been merged together in a single file. Returns the JSON file which is feeded into the webApp database for graphical plotting. JSON export consists of (x,y) coordinates, cost of making tanks, capacity of tanks and pipe framework connecting from a node(house) to a tank.
+
 [RANDOM_DATA_GENERATOR.ipynb](https://github.com/aviral36/RWHOptimiser/blob/master/RANDOM_DATA_GENERATOR.ipynb): This file generates completely random data. All the variables including the coordinates, the demands of households, the catchement areas and the rainfall in the city are random numbers without any assumptions. To generate the positions of tanks, the houses are clustered together and the centroid of each cluster is taken as a probable spot for keeping a tank.
 
 Next, we took the jury's suggestions in mind and generated pseudo-random data. We assumed that all the pipelining(sewerage, gas, etc) is done along side roads. This is because it is easier to access these pipes if they need to be maintained or replaced. Also, we assumed that houses are built along sides roads and hence we used the coordinates from the road map as coordinates of houses to obtain about 30000 points. We further used a subset of this data of about 1100 points to test our algorithm.
