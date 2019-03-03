@@ -92,8 +92,18 @@ The grievance tab displays all the recorded issues of citizens along with locati
 
 The grievance app is a mobile application which can be used by citizens to address their problems regarding the water harvesting system. For instance, a pipe leakage can be registered on this app along with location. The Water Department official will get to know about this problem through his portal.
       
-![Alt text](https://github.com/aviral36/RWHOptimiser/blob/master/metadata/GrievanceApp.PNG)
+![Grievance App](https://github.com/aviral36/RWHOptimiser/blob/master/metadata/GrievanceApp.PNG)
 
 Since we plan to expand this app throughout a city, it will contain many perons who do not know the complexities of an app. So, we have tried to keep the interface as minimal as possible. Furthermore, the app will be developed so as to work in a offline mode - taking care of the fact that lot of people do not have access to the internet. In this method, the grievance will be sent via an SMS, which will be read accordingly by the Admin portal.
+
+<hr>
+
+## Data Used in this Repository
+
+Since data is not available from municipal corporation data, we map our data according to the city roadmap structure. 
+We were able to extract roadmap from StreetMaps data of Delhi, INDIA. These roads are plotted using (x,y) coordinates connecting every 450m. It can be safely assumed that every catchment area will lie alongside a road. Hence, these coordinates act as our nodes or centers of catchment area. The below image shows the highway map of Delhi. 
+![Highway_Map](https://github.com/aviral36/RWHOptimiser/blob/master/metadata/highway_map.png)
+
+The JSON file of above map containing the coordinates can be found in data folder of this repository. This data is being used by our functions to optimise location of tanks.
 
 <hr>
