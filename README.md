@@ -6,6 +6,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 
+[View Presentation](https://docs.google.com/presentation/d/1ab0oc-WsSwmTbChWk_8pl0WLWHiz80Aj56PJ07-EgZM/edit?usp=sharing)
 
 RWHOpt is a underground water tank location optimizer that finds the optimal location(s) and capacity of water tank(s) to be placed in the city, provided housing data, catchments, stability and (x,y) coordinates of houses. [See more about input](#inputs-structure-of-data).
 
