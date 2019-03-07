@@ -118,6 +118,7 @@ The JSON file of above map containing the coordinates can be found in data folde
 [Shubham Tyagi](https://github.com/shubhamtyagihkt)<br>
 
 <p align='center'>
-©Team Six Nearest Neighbors<br>
+©Team Six Nearest Neighbors,<br>
+Delhi Technological University<br>
 For Goldman Sachs
 </p>
