@@ -110,14 +110,13 @@ The JSON file of above map containing the coordinates can be found in data folde
 
 ### Contributors
 
-[Ashish Gupta](https://github.com/ashishgupta1350)
-[Aviral Sharma](https://github.com/aviral36)
-[Khyati Mahendru](https://github.com/KhyatiMahendru)
-[Mihir Ahlawat](https://github.com/mihirahlawat)
-[Vikram Singh](https://github.com/SinghVikram97)
-[Shubham Tyagi](https://github.com/shubhamtyagihkt)
+[Ashish Gupta](https://github.com/ashishgupta1350)<br>
+[Aviral Sharma](https://github.com/aviral36)<br>
+[Khyati Mahendru](https://github.com/KhyatiMahendru)<br>
+[Mihir Ahlawat](https://github.com/mihirahlawat)<br>
+[Vikram Singh](https://github.com/SinghVikram97)<br>
+[Shubham Tyagi](https://github.com/shubhamtyagihkt)<br>
 
-©Team Six Nearest Neighbors
-For Goldman Sachs
+©Team Six Nearest Neighbors,<br>
 For Goldman Sachs
 
