@@ -117,6 +117,7 @@ The JSON file of above map containing the coordinates can be found in data folde
 [Vikram Singh](https://github.com/SinghVikram97)<br>
 [Shubham Tyagi](https://github.com/shubhamtyagihkt)<br>
 
-©Team Six Nearest Neighbors,<br>
+<p align='center'>
+©Team Six Nearest Neighbors<br>
 For Goldman Sachs
-
+</p>
