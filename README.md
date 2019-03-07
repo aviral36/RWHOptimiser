@@ -107,3 +107,17 @@ We were able to extract roadmap from StreetMaps data of Delhi, INDIA. These road
 The JSON file of above map containing the coordinates can be found in data folder of this repository. This data is being used by our functions to optimise location of tanks.
 
 <hr>
+
+### Contributors
+
+[Ashish Gupta](https://github.com/ashishgupta1350)
+[Aviral Sharma](https://github.com/aviral36)
+[Khyati Mahendru](https://github.com/KhyatiMahendru)
+[Mihir Ahlawat](https://github.com/mihirahlawat)
+[Vikram Singh](https://github.com/SinghVikram97)
+[Shubham Tyagi](https://github.com/shubhamtyagihkt)
+
+©Team Six Nearest Neighbors
+For Goldman Sachs
+For Goldman Sachs
+
