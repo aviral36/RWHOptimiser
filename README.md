@@ -123,4 +123,4 @@ Delhi Technological University<br>
 For Goldman Sachs
 </p>
 
-<img align = "center" src = "https://github.com/aviral36/RWHOptimiser/blob/master/metadata/org_logos.PNG">
+<img align = "center" src = "https://github.com/aviral36/RWHOptimiser/blob/master/org_logos.PNG">
