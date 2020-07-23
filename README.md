@@ -122,3 +122,5 @@ The JSON file of above map containing the coordinates can be found in data folde
 Delhi Technological University<br>
 For Goldman Sachs
 </p>
+
+<img align = "center" src = "https://github.com/aviral36/RWHOptimiser/blob/master/metadata/org_logos.PNG">
